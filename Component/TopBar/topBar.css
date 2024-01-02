@@ -1,0 +1,38 @@
+.topBar{
+    width: 100%;
+    height: 30px;
+    background-color: #23259E;
+    color: #fff;
+}
+.topBar-container{
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+.topBar-left{
+    display: flex;
+    gap: 2rem;
+}
+.topBar-right{
+    display: flex;
+    gap: 1rem;
+}
+.top-language{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.top-social{
+    display: flex;
+    gap: 10px;
+}
+.social-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
