@@ -1,0 +1,23 @@
+.logo{
+width:100px !important;
+}
+.header{
+    
+    width: 100%;
+   
+}
+.header-container{
+    width: 80%;
+    margin:  0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    gap: 4rem;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4rem;
+}
