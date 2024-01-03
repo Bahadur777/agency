@@ -23,3 +23,28 @@
     color: #fff;
     text-transform: capitalize;
 }
+.hero-middle{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.middle-left, .middle-right{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: #fff;
+    align-items: center;
+}
+.hr{
+    width: 50%;
+    height: 1px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.hero-text{
+    width: 80%;
+    padding: 2rem 0;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+}

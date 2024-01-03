@@ -1,0 +1,9 @@
+.primary-btn{
+    width: fit-content;
+    padding: 10px 1rem;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid #23259E;
+    cursor: pointer;
+    color: #fff;
+}
