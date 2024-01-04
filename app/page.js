@@ -1,6 +1,7 @@
 import TopBar from "@/Component/TopBar/TopBar"
 import Header from "@/Component/Header/Header"
 import Hero from "@/Component/Hero/Hero"
+import Service from "@/Component/Service/Service"
 
 const page = () => {
   return (
@@ -8,6 +9,7 @@ const page = () => {
      <TopBar/>
      <Header/>
      <Hero/>
+     <Service/>
     </div>
   )
 }

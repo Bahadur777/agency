@@ -6,7 +6,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    position: absolute;
+    margin-top: 50px;
   
 }
 .hero-container{
@@ -49,21 +49,13 @@
     line-height: 27px;
     color: #fff;
 }
-.support-section{
-    position: relative;
-    top: 37rem;
-    right: 200px;
-    left: 0;
-    bottom:0 ;
-    margin-bottom: 30px;
-   
-}
+
 .support-container{
     width: 60%;
     margin:-50px 0 auto auto;
     background-color: red;
     height: 80px;
-    padding: 2rem;
+    padding:3rem 2rem;
     border-top-left-radius: 50px 50px;
     margin-bottom: 30px;
     border-bottom-left-radius: 50px 50px;
@@ -112,4 +104,7 @@
 .support-right-content h1{
     font-size: 20px;
     font-weight:700;
+}
+.clear{
+    clear: both;
 }

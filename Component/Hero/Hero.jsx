@@ -57,6 +57,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <div className="clear"></div>
     </div>
   );
 };
