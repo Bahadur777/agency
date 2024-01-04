@@ -7,3 +7,18 @@
     cursor: pointer;
     color: #fff;
 }
+.bg-btn{
+    width: fit-content;
+    padding: 10px 1rem;
+    background-color: #23259E;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff; 
+}
+.service-button-section{
+    margin: 1rem;
+}
+.poster{
+    width: 50%;
+    margin: 0 auto;
+}
