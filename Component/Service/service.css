@@ -54,7 +54,20 @@
     font-size: 22px;
     font-weight: 700;
 }
+.service-platform{
+    width: 30%;
+    padding: 20px;
 
+}
+.title-bold{
+    font-size: 22px;
+}
+.platform-btn{
+    color: #000 !important;
+}
+.platform-title{
+    padding: 10px 0;
+}
 
 
 

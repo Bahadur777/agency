@@ -5,7 +5,7 @@ import Poster from '../../public/people.jpg'
 import ServiceCard from './ServiceCard'
 import { FaGlobe } from "react-icons/fa";
 import { IoSettingsSharp } from "react-icons/io5";
-import { BsGearWideConnected } from "react-icons/bs";
+import { BsGearWideConnected } from "react-icons/bs"
 
 
 const Service = () => {
@@ -46,6 +46,19 @@ const Service = () => {
         <ServiceCard title="Education consultation" icons={<FaGlobe />} cardText="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et voluptate, repellendus rerum accusamus minima quod!"/>
         <ServiceCard title="Education consultation" icons={<FaGlobe />} cardText="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et voluptate, repellendus rerum accusamus minima quod!"/>
 
+        <div className="service-platform">
+        <div className="platform-text">
+                <p>Our service</p>
+             </div>
+             <div className="platform-title">
+                <h1 className='title-bold'>One platform</h1>
+                <h1>All solution</h1>
+             </div>
+             <div className="platform-btn">
+             <BgButton btnText="Learn more"/>
+             </div>
+        </div>
+            
         </div>
        </div>
        </div>
