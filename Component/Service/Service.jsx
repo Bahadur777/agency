@@ -2,6 +2,11 @@ import './service.css'
 import BgButton from '../Button/BgButton'
 import Image from 'next/image'
 import Poster from '../../public/people.jpg'
+import ServiceCard from './ServiceCard'
+import { FaGlobe } from "react-icons/fa";
+import { IoSettingsSharp } from "react-icons/io5";
+import { BsGearWideConnected } from "react-icons/bs";
+
 
 const Service = () => {
   return (
@@ -29,6 +34,21 @@ const Service = () => {
                 </div>
             </div>
         </div>
+
+       <div className="service-card-main">
+       <div className="service-card-section">
+        <div className="service-card-container">
+        <ServiceCard className='card-name' title="IT Solution" icons={<FaGlobe />} cardText="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et voluptate, repellendus rerum accusamus minima quod!"/>
+
+        <ServiceCard title="Hardware Repair" icons={<IoSettingsSharp />} cardText="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et voluptate, repellendus rerum accusamus minima quod!"/>
+        <ServiceCard title="Engineering service" icons={<BsGearWideConnected />} cardText="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et voluptate, repellendus rerum accusamus minima quod!"/>
+
+        <ServiceCard title="Education consultation" icons={<FaGlobe />} cardText="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et voluptate, repellendus rerum accusamus minima quod!"/>
+        <ServiceCard title="Education consultation" icons={<FaGlobe />} cardText="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et voluptate, repellendus rerum accusamus minima quod!"/>
+
+        </div>
+       </div>
+       </div>
     </div>
   )
 }

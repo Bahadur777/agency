@@ -28,3 +28,61 @@
 .service{
     margin: 1rem 0;
 }
+.ServiceCard{
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.card-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 0;
+
+}
+
+.card-icons{
+    width: 40px ;
+    height: 40px;
+    font-size: 50px;
+    color: #23259E;
+}
+.cart-title h1{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service-card-container{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.card-name{
+    width: 33%;
+}
+.service-card-main{
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f3f4f6;
+}
