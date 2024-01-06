@@ -10,3 +10,16 @@
     text-transform: capitalize;
     font-weight: 700;
 }
+.workNum{
+    font-size: 40px;
+}
+.workImg{
+    font-size: 60px;
+}
+.WorkCardNum{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}

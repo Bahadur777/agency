@@ -27,3 +27,23 @@
 .workSub-text{
     font-size: 14px;
 }
+.Work-card-section{
+    width: 60%;
+    margin: 2rem auto;
+   
+}
+
+.work-card-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card-row-left{
+    width: 70%;
+  }
+  .card-row-right{
+    width: 50%;
+    background-color: yellow;
+    display: flex;
+    
+  }
