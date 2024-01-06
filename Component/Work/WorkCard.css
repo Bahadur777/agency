@@ -1,0 +1,12 @@
+.WorkCard-text{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.card-para-text{
+    padding: 10px 0;
+}
+.links{
+    text-transform: capitalize;
+    font-weight: 700;
+}

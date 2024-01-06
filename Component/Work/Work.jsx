@@ -1,5 +1,5 @@
 import './work.css'
-
+import WorkCardText from './WorkCardText'
 const Work = () => {
   return (
     <div className='work-section'>
@@ -19,6 +19,7 @@ const Work = () => {
                     </p>
                 </div>
             </div>
+           
         </div>
     </div>
   )
