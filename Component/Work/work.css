@@ -1,0 +1,29 @@
+.work-section{
+    width: 100%;
+    padding: 2rem 0;
+}
+.work-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.work-top{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.work-s-text{
+    font-size: 14px;
+    color: #23259E;
+    font-weight: 700;
+}
+.workTitle-text{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.workTitle-text span{
+    color: #23259E;
+}
+.workSub-text{
+    font-size: 14px;
+}
