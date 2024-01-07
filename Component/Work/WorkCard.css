@@ -12,14 +12,22 @@
 }
 .workNum{
     font-size: 40px;
+    background-color: #23259E;
+    color: #fff;
+    width: 60px;
+    text-align: center;
 }
 .workImg{
     font-size: 60px;
+    text-align: center;
+    width: 90px;
+    
+    
 }
 .WorkCardNum{
     width: 100%;
     display: flex;
-    background-color: white;
+   
     align-items: center;
     justify-content: space-between;
 }
