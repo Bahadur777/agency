@@ -32,7 +32,7 @@ const Work = () => {
                 </div>
                 <div className="work-card-row">
                     <div className="card-row-left">
-                    <WorkCardNum Number="1" workImg={<TiMessages />} />
+                    <WorkCardNum Number="2" workImg={<TiMessages />} />
                         
                     </div>
                     <div className="card-row-right">
@@ -44,7 +44,7 @@ const Work = () => {
                         <WorkCardText CardTitle="Sent us message" CardParaText="some text" linkText="Sent message"/>
                     </div>
                     <div className="card-row-right">
-                        <WorkCardNum Number="1" workImg={<TiMessages />} />
+                        <WorkCardNum Number="3" workImg={<TiMessages />} />
                     </div>
                 </div>
             </div>

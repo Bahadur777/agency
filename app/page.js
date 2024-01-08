@@ -3,6 +3,7 @@ import Header from "@/Component/Header/Header"
 import Hero from "@/Component/Hero/Hero"
 import Service from "@/Component/Service/Service"
 import Work from "@/Component/Work/Work"
+import Contact from "@/Component/Contact/Contact"
 
 const page = () => {
   return (
@@ -12,6 +13,7 @@ const page = () => {
      <Hero/>
      <Service/>
      <Work/>
+     <Contact/>
     </div>
   )
 }
