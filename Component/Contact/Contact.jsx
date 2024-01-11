@@ -33,7 +33,7 @@ const Contact = () => {
             </div>
             <div className="contact-right">
                 <form action="">
-                    
+                    <input type="text" />
                 </form>
             </div>
         </div>
