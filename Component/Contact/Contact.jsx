@@ -1,4 +1,5 @@
 import './contact.css'
+import BgButton from '../Button/BgButton'
 
 const Contact = () => {
   return (
@@ -32,8 +33,19 @@ const Contact = () => {
                 </div>
             </div>
             <div className="contact-right">
-                <form action="">
-                    <input type="text" />
+                <form action="" className='contact-form'>
+                    <div className="input-div">
+                        <input type="text" placeholder='Full Name'/>
+                        <input type="email" placeholder='E-mail' />
+                    </div>
+                    <div className="input-div">
+                        <input type="text" placeholder='Phone Number' />
+                        <input type="text" placeholder='Company Name' />
+                    </div>
+                    <textarea name="" id="" className='text-input'></textarea>
+                    <div className="btn-div">
+                    <BgButton btnText='Submit'/>
+                    </div>
                 </form>
             </div>
         </div>

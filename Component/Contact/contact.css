@@ -5,4 +5,64 @@
 .contact-container{
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.contact-left{
+    width: 30%;
+}
+
+.contact-form{
+    width: 100%;
+}
+.input-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.input-div input{
+    border:1px solid #ECC5B7;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.text-input{
+    width: 100%;
+    padding: 30px 0;
+    border: 1px solid #ECC5B7;
+    border-radius: 5px;
+}
+.btn-div{
+    width: 100%;
+   text-align: end;
+}
+.contact-title{
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.united-address{
+    padding: 5px 0;
+}
+.address-title{
+    font-weight: 700;
+}
+.united-phone, .united-sub{
+    font-size: 14px;
+}
+.bd-address{
+   padding: 5px 0;
+}
+.bd-text{
+    font-weight: 700;
+}
+.bd-phone, .bd-sub{
+    font-size: 14px;
 }
