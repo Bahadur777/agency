@@ -1,0 +1,46 @@
+.newsLetter{
+    margin: 2rem 0;
+}
+.newsLetter-section{
+    width: 80%;
+    margin: 0 auto;
+}
+.newsletter-title{
+    text-align: center;
+}
+.letter-title-text{
+    font-size: 65px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+.letter-title-text span{
+    color: #23259E;
+}
+.letter-sub-text{
+    padding: 10px 0;
+    font-size: 20px;
+}
+.news-form{
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+.new-input{
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+.news-btn{
+    padding: 15px 10px;
+    width: fit-content;
+    background-color: #23259E;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: -20px;
+}
+.new-input:focus{
+    outline: none;
+}

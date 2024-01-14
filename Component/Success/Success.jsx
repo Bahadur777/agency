@@ -1,4 +1,5 @@
 import './success.css'
+import NewsLetter from '@/NewsLetter/NewsLetter'
 
 const Success = () => {
   return (
@@ -15,6 +16,7 @@ const Success = () => {
             </p>
         </div>
     </div>
+    <NewsLetter/>
    </div>
   )
 }
