@@ -4,6 +4,7 @@ import Hero from "@/Component/Hero/Hero"
 import Service from "@/Component/Service/Service"
 import Work from "@/Component/Work/Work"
 import Contact from "@/Component/Contact/Contact"
+import Success from "@/Component/Success/Success"
 
 const page = () => {
   return (
@@ -14,6 +15,7 @@ const page = () => {
      <Service/>
      <Work/>
      <Contact/>
+     <Success/>
     </div>
   )
 }

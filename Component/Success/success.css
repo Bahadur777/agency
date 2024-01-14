@@ -1,0 +1,27 @@
+.success{
+    width: 100%;
+    margin: 2rem 0;
+    background-color: #F3F4F6;
+    padding: 5rem;
+}
+.success-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem 2.5rem;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.success-title{
+    padding: 10px 0;
+    
+}
+.success-title-text{
+    font-size: 65px;
+    font-weight: 700;
+    color: #23259E;
+    text-transform: capitalize;
+}
+.success-sub-text{
+    font-size: 16px;
+    color: #434446;
+}
