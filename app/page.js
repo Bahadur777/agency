@@ -5,6 +5,7 @@ import Service from "@/Component/Service/Service"
 import Work from "@/Component/Work/Work"
 import Contact from "@/Component/Contact/Contact"
 import Success from "@/Component/Success/Success"
+import Blog from "@/Component/Blog/Blog"
 
 const page = () => {
   return (
@@ -16,6 +17,7 @@ const page = () => {
      <Work/>
      <Contact/>
      <Success/>
+     <Blog/>
     </div>
   )
 }
