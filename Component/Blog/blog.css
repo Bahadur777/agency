@@ -43,8 +43,3 @@
     word-wrap: break-word;
     line-clamp: 3; 
 }
-.hr{
-    height: 1px;
-    background-color: #23259E;
-    width: 100%;
-}

@@ -25,7 +25,7 @@ const Blog = () => {
                   <p className="blog-pera-text">{blogText}</p>
                 
               </div>
-              <div className="hr"></div>
+              
             </div>
           </div>
         );
